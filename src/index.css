@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*************** Home-left ****************/
+
+.left{
+  background-color: #EDF0F4;
+  height: 100vh !important;
+  width: 18% !important;
+}
+
+li > a {
+  text-transform: capitalize;
+  font-family: Montserrat;
+}
+
+ul > li{
+  margin-left: 10%;
+}
+
+.heading {
+  font-family: maicrosoft himalaya;
+}
+
+/* .logo{
+  font-family: platino Linotype;
+  font-size: 2.5rem;
+} */
+
+.logbtn{
+  margin:auto;
+  margin-top: 100px;
+  width: 70% !important;
+}
+
+.logoutbtn{
+  padding: 5px;
+  background-color: #6F7CF0;
+  border: none;
+}
+
+.headtext{
+  margin-left: 10%;
+}
+
+.image > img{
+  margin-left: -50px !important;
+}
+
+
+/*************** Home-Right ****************/
+
+
+.right{
+
+  height: 100vh !important;
+  width: 82%;
+}
+
+
+
+
+/***********************Filter*********************/
+
+.datefilterlabel{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#slider{
+  height: 2px;
+  border-radius: 0px;
+  background-color: #6F7CF0 !important;
+  margin-bottom: 8px;
+}
+
+/*************************Logo***********************/
+@media (max-width:1400px){
+  *{
+    font-size: 10px
+  }
+} 
+
+@media (max-width:768px){
+  *{
+    font-size: 10px
+  }
+
+  .image{
+    width: 50px !important;
+  }
+  .image img {
+    width: 100%;
+  }
+
+  #graph{
+    height: 30vh !important;
+  }
+
+  
+
+}
+

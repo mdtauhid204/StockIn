@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    
+    /* background: #c3b2e305; */
+}
+
+.login_form{
+    font-family: 'Ubuntu', sans-serif;
+}
+.left_login_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.right_login_form{
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items:initial;
+        width: 40%;
+        min-height: 100vh;
+        font-weight: 600;
+       
+}
+
+.login_heading{
+    font-size: 3rem;
+    padding: 2rem;
+    font-weight: 700;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+
+    text-transform: uppercase;
+}
+.svg_img{
+    width: 100%;
+
+}
+
+.register{
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    margin-left: 0.7rem;
+}
+
+@media (max-width:750px) {
+    .svg_img{
+        /* height: 200px !important;
+         */
+         display: none;
+    }
+    
+}
